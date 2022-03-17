@@ -67,10 +67,26 @@
             },
 
             /**
+             * Check type
+             * @param str
+             */
+            isJsonString(str) {
+                try {
+                  JSON.parse(str);
+                } catch (e) {
+                  return false;
+                }
+
+                return true;
+            },
+
+            /**
              * Fill the given FormData object with the field's internal value.
              */
             fill(formData) {
-                formData.append(this.field.attribute, this.value || '')
+                let value = this.isJsonString(this.value) ? this.value : JSON.stringify(this.value);
+
+                formData.append(this.field.attribute, value)
             },
 
             /**
