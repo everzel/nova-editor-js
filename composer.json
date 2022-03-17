@@ -1,5 +1,5 @@
 {
-    "name": "advoor/nova-editor-js",
+    "name": "everzel/nova-editor-js",
     "description": "A Laravel Nova field bringing EditorJs magic to Nova.",
     "keywords": [
         "laravel",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Advoor\\NovaEditorJs\\": "src/"
+            "Everzel\\NovaEditorJs\\": "src/"
         }
     },
     "autoload-dev": {
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Advoor\\NovaEditorJs\\FieldServiceProvider"
+                "Everzel\\NovaEditorJs\\FieldServiceProvider"
             ]
         }
     },

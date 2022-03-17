@@ -23,7 +23,6 @@
                 this.value = this.field.value;
 
                 let self = this;
-                let currentContent = (self.field.value ? JSON.parse(self.field.value) : self.field.value);
 
                 const editor = NovaEditorJS.getInstance({
                     /**
@@ -49,7 +48,7 @@
                     /**
                      * Initial Editor data
                      */
-                    data: currentContent,
+                    data: this.value,
 
                     /**
                      * Min height of editor

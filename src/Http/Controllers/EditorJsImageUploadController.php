@@ -1,6 +1,6 @@
 <?php
 
-namespace Advoor\NovaEditorJs\Http\Controllers;
+namespace Everzel\NovaEditorJs\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Storage;

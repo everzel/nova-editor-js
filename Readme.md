@@ -1,21 +1,16 @@
 # Laravel Nova Editor JS Field
 
-[![Latest Version on Github](https://img.shields.io/github/release/advoor/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/advoor/nova-editor-js)
-[![Total Downloads](https://img.shields.io/packagist/dt/advoor/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/advoor/nova-editor-js)
-
-A Laravel Nova implementation of [Editor.js](https://github.com/codex-team/editor.js) by [@advoor](https://github.com/advoor).
-
 ## Installation
 
 Install via composer:
 
 ```
-composer require advoor/nova-editor-js
+composer require everzel/nova-editor-js
 ```
 
 Publish the config file
 ```
-php artisan vendor:publish --provider="Advoor\NovaEditorJs\FieldServiceProvider"
+php artisan vendor:publish --provider="Everzel\NovaEditorJs\FieldServiceProvider"
 ```
 
 ## Upgrade
@@ -26,7 +21,7 @@ If upgrading from v0.4.0, re-publish the config file!
 Add this `use` statement to the top of the your nova resource file:
 
 ```php
-use Advoor\NovaEditorJs\NovaEditorJs;
+use Everzel\NovaEditorJs\NovaEditorJs;
 ```
 
 Use the field as below:
@@ -154,7 +149,7 @@ return [
 `app/Providers/NovaServiceProvider.php`
 
 ```php
-use Advoor\NovaEditorJs\NovaEditorJs;
+use Everzel\NovaEditorJs\NovaEditorJs;
 
 // ...
 public function boot()
