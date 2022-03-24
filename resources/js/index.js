@@ -5,6 +5,7 @@ import NovaEditorJS from "./nova-editor";
 window.NovaEditorJS = new NovaEditorJS();
 
 // Import the blocks
+require('./blocks/aling');
 require('./blocks/checklist');
 require('./blocks/code');
 require('./blocks/delimiter');
