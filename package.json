@@ -13,7 +13,6 @@
         "@editorjs/checklist": "^1.1.0",
         "@editorjs/code": "^2.4.1",
         "@editorjs/delimiter": "^1.1.0",
-        "@editorjs/editorjs": "^2.15.1",
         "@editorjs/embed": "^2.2.1",
         "@editorjs/header": "^2.3.1",
         "@editorjs/image": "^2.3.3",
@@ -33,6 +32,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "@editorjs/editorjs": "^2.25.0",
         "editorjs-text-alignment-blocktune": "^1.0.3",
         "vue": "^2.6.11"
     }
