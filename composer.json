@@ -15,7 +15,7 @@
         "ext-json": "*",
         "codex-team/editor.js": "*",
         "laravel/nova": "^2.0 || ^3.0",
-        "spatie/image": "^1.7"
+        "spatie/image": "*"
     },
     "require-dev": {
         "orchestra/testbench": "^3.8"
