@@ -93,7 +93,7 @@
              * Update the field's internal value.
              */
             handleChange(value) {
-                this.value = value
+                this.value = JSON.stringify(value)
             },
         },
     }
